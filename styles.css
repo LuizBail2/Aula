@@ -1,13 +1,30 @@
 body {
-    background-color: #808080;
+    font-family:  Arial, sans-serif;
+    background-color: aqua;
+}
+  
+.header {
+    background-color: lightsteelblue;
+    color: blueviolet;
+    text-align: center;
+    padding: 20px;
 }
 
-.title {
-    font-size: 42px;
-    color: orange;
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 40px;
 }
 
-#text-content {
-    font-size: 12px;
-    color: green;
+.main-content {
+    padding: 20px;
+}
+
+.footer {
+   padding: 20px;
+}
+
+.footer p {
+    opacity: 0.5;
 }
