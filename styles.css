@@ -1,30 +1,9 @@
-body {
-    font-family:  Arial, sans-serif;
-    background-color: aqua;
-}
-  
-.header {
-    background-color: lightsteelblue;
-    color: blueviolet;
-    text-align: center;
-    padding: 20px;
-}
-
-.nav ul {
+.content {
     display: flex;
     flex-direction: row;
-    text-align: center;
-    gap: 40px;
+    justify-content: center;
 }
 
-.main-content {
-    padding: 20px;
-}
-
-.footer {
-   padding: 20px;
-}
-
-.footer p {
-    opacity: 0.5;
+.content iframe {
+    height: 100vh;
 }
